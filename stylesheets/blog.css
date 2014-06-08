@@ -1,0 +1,26 @@
+html{
+	background-color: #FFFFFF;
+	background-image: url(http://thecutestblogontheblock.com/wp-content/uploads/2011/11/gams-free-modern-vintage-chic-simple-blog-background-3c-copy.jpg);
+	background-size: 100% 100%;
+	font: Verdana;
+	font-size: 200%;
+	text-align: center;
+}
+
+header{
+	color: #CDCDCD;
+	border-bottom: 5px solid #000000;
+}
+
+#content{
+	text-align: center;
+}
+
+.link{
+	color: #FFCB06;
+}
+
+footer{
+	color: #CDCDCD;
+	border-top: 5px solid #000000;
+}
