@@ -1,15 +1,16 @@
 html{
 	background-color: #FFFFFF;
-	background-image: url(http://thecutestblogontheblock.com/wp-content/uploads/2011/11/gams-free-modern-vintage-chic-simple-blog-background-3c-copy.jpg);
-	background-size: 100% 100%;
+	background-image: url(http://th09.deviantart.net/fs70/PRE/f/2012/203/c/0/blog_background_by_monxi-d587zte.jpg);
+	background-size: 100%;
 	font: Verdana;
 	font-size: 200%;
 	text-align: center;
 }
 
 header{
-	color: #CDCDCD;
+	color: #000000;
 	border-bottom: 5px solid #000000;
+
 }
 
 #content{
