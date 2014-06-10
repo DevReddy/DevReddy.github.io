@@ -1,16 +1,19 @@
 html{
 	background-color: #FFFFFF;
-	background-image: url(http://th09.deviantart.net/fs70/PRE/f/2012/203/c/0/blog_background_by_monxi-d587zte.jpg);
+	background: url(http://th09.deviantart.net/fs70/PRE/f/2012/203/c/0/blog_background_by_monxi-d587zte.jpg);
 	background-size: 100%;
+	background-attachment: fixed;
 	font: Verdana;
 	font-size: 100%;
 	text-align: center;
 }
 
-header{
+#header{
 	color: #000000;
+	position: relative;
 	border-bottom: 5px solid #000000;
-
+	width: 600px;
+	margin-left: 25%;
 }
 
 #content{
@@ -18,10 +21,16 @@ header{
 }
 
 .link{
-	color: #FFCB06;
+	font-weight: bold;
 }
+.link:link{color:#000000;}
+.link:visited{color:#000000;}
+.link:hover{color:#898989}
+.link:active{color:#000000;}
 
-footer{
+#footer{
 	color: #CDCDCD;
 	border-top: 5px solid #000000;
+	width: 600px;
+	margin-left: 25%;
 }
