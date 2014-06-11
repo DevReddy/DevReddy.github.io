@@ -1,9 +1,9 @@
 html{
 	background-color: #FFFFFF;
-	background: url(http://th09.deviantart.net/fs70/PRE/f/2012/203/c/0/blog_background_by_monxi-d587zte.jpg);
+	background: url(http://wallpapers.wallbase.cc/rozne/wallpaper-446338.png);
 	background-size: 100%;
 	background-attachment: fixed;
-	font: Verdana;
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 100%;
 	text-align: center;
 }
@@ -12,12 +12,15 @@ html{
 	color: #000000;
 	position: relative;
 	border-bottom: 5px solid #000000;
-	width: 600px;
+	width: 50%;
+	margin-top: 5%;
 	margin-left: 25%;
 }
 
 #content{
 	text-align: center;
+	width: 50%;
+	margin-left: 25%;
 }
 
 .link{
@@ -31,6 +34,6 @@ html{
 #footer{
 	color: #CDCDCD;
 	border-top: 5px solid #000000;
-	width: 600px;
+	width: 50%;
 	margin-left: 25%;
 }
