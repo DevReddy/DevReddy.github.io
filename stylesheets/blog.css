@@ -15,11 +15,13 @@ html{
 	width: 50%;
 	margin-top: 5%;
 	margin-left: 25%;
+	padding-bottom: 1%;
 }
 
 #content{
 	text-align: center;
 	width: 50%;
+	margin-top: 1%;
 	margin-left: 25%;
 }
 
@@ -35,5 +37,6 @@ html{
 	color: #CDCDCD;
 	border-top: 5px solid #000000;
 	width: 50%;
+	padding-top: 1%;
 	margin-left: 25%;
 }
