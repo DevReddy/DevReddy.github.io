@@ -59,20 +59,40 @@ html{
 
 header{
 	color: #000000;
-	position: relative;
+	background-image: url(../images/header_back.png);
+	background-size: 100%;
+	position: fixed;
+	z-index: 2;
+	top: 0;
 	border-bottom: 5px solid #000000;
-	font-size: 200%;
 	width: 50%;
-	margin-top: 5%;
 	margin-left: 25%;
-	padding-bottom: 1%;
+}
+
+header h1 {
+	padding: 1%;
+	font-size: 200%;
+	margin-top:5%;
+	border-bottom: 5px solid #000;
+}
+
+header nav {
+	font-size: 125%;
+	padding: 1%;
+}
+
+header a {
+	margin: 0% 5% 0% 5%;
 }
 
 section{
 	text-align: center;
+	position: relative;
+	z-index: 1;
 	width: 50%;
-	margin-top: 1%;
+	margin-top: 10%;
 	margin-left: 25%;
+	padding-bottom: 1%;
 }
 
 a {
