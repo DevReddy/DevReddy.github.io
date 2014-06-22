@@ -105,6 +105,9 @@ section h3 {
 section h2 {
 	padding: 1%;
 }
+section p {
+	text-align: center;
+}
 
 a {
 	font-weight: bold;
