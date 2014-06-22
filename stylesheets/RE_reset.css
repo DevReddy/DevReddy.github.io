@@ -94,8 +94,16 @@ section{
 	margin-left: 25%;
 	padding-bottom: 1%;
 }
-section > img {
-	width: 70%;
+section img {
+	max-width: 70%;
+}
+section h3 {
+	padding: 1%;
+	font-size: 125%;
+	margin-top: 5%;
+}
+section h2 {
+	padding: 1%;
 }
 
 a {
