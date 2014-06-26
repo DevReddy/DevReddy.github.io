@@ -51,7 +51,7 @@ table {
 
 html{
 	background-color: #E3E0E0;
-	background: url(../images/background.png);
+	background-image: url(../images/background.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
