@@ -50,7 +50,7 @@ table {
 }
 
 html{
-	background-color: #FFFFFF;
+	background-color: #E3E0E0;
 	background: url(../images/background.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -59,7 +59,6 @@ html{
 }
 
 header{
-	color: #000000;
 	background-image: url(../images/header_back.png);
 	background-size: 100%;
 	position: fixed;
