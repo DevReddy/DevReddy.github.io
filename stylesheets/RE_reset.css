@@ -52,6 +52,7 @@ table {
 html{
 	background-color: #FFFFFF;
 	background: url(../images/background.png);
+	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
 	text-align: center;
