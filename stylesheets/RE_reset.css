@@ -18,23 +18,17 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	border: 0;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font-family: "Lucida Grande", sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -44,94 +38,108 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+body {
+	line-height: 1;
 }
 code{
 	background-color: #F8F8F8;
 	border: 1px solid #999999;
-	padding: 5px 5px;
-	display: inline-block;
-	text-align: left;
-	font-family: "Lucida Sans Unicode" sans-serif;
+	border-radius: 4px;
 	color: #474747;
+	display: inline-block;
+	font-family: "Lucida Sans Unicode" sans-serif;
+	padding: 5px 5px;
+	text-align: left;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
+
 html{
-	background-color: #E3E0E0;
-	background-image: url(../images/background.png);
+	background-attachment: fixed;
+	background-color: f8f1e0;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-attachment: fixed;
+	color: 57340e;
 	text-align: center;
 }
 
+a {
+	font-weight: bold;
+	text-align: center;
+}
+a:link{color:#57340e;}
+a:visited{color:#57340e;}
+a:hover{color:#744a1d;}
+a:active{color:#57340e;}
+
 header{
-	background-image: url(../images/header_back.png);
+	background-color: f8f1e0;
 	background-size: 100%;
-	position: fixed;
-	z-index: 2;
-	top: 0;
-	border-bottom: 5px solid #000000;
-	width: 50%;
+	border-bottom: 5px solid;
+	display: block;
 	margin-left: 25%;
+	position: fixed;
+	top: 0;
+	width: 50%;
+	z-index: 2;	
 }
-
 header h1 {
-	padding: 1%;
+	border-bottom: 5px solid;
 	font-size: 200%;
-	margin-top:5%;
-	border-bottom: 5px solid #000;
+	padding: 3%;
 }
-
 header nav {
 	font-size: 125%;
 	padding: 1%;
 }
-
 header a {
 	margin: 0% 5% 0% 5%;
 }
 
 section{
-	text-align: center;
-	position: relative;
-	z-index: 1;
-	width: 48%;
+	display: block;
 	margin-top: 10%;
 	margin-left: 25%;
+	margin-bottom: 10%;
 	padding-bottom: 1%;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	z-index: 1;
 }
 section img {
 	max-width: 70%;
 }
 section h3 {
-	padding: 1%;
 	font-size: 125%;
 	margin-top: 5%;
+	padding: 1%;
 }
 section h2 {
 	padding: 1%;
 }
 section p {
-	text-align: center;
 	padding: 1%;
+	text-align: center;
 }
-
-a {
-	font-weight: bold;
+section a {
+	text-align: center;
 }
-a:link{color:#000000;}
-a:visited{color:#000000;}
-a:hover{color:#898989}
-a:active{color:#000000;}
 
 footer{
-	color: #CDCDCD;
-	border-top: 5px solid #000000;
-	width: 50%;
-	padding-top: 1%;
-	margin-bottom: 5%;
+	background-color: f8f1e0;
+	border-top: 5px solid;
+	bottom: 0;
+	height: 5%;
 	margin-left: 25%;
+	padding-top: 1%;
+	position: fixed;
+	width: 50%;
+	z-index: 1;
 }
