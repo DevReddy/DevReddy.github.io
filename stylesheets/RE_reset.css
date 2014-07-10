@@ -63,6 +63,7 @@ table {
 html{
 	background-attachment: fixed;
 	background-color: f8f1e0;
+	background-image: url(../images/background.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: 57340e;
@@ -79,7 +80,6 @@ a:hover{color:#744a1d;}
 a:active{color:#57340e;}
 
 header{
-	background-color: f8f1e0;
 	background-size: 100%;
 	border-bottom: 5px solid;
 	display: block;
@@ -129,7 +129,6 @@ section a {
 }
 
 footer{
-	background-color: f8f1e0;
 	border-top: 5px solid;
 	display: block;
 	height: 5%;
