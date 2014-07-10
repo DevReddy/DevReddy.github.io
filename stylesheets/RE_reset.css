@@ -84,10 +84,8 @@ header{
 	border-bottom: 5px solid;
 	display: block;
 	margin-left: 25%;
-	/*position: fixed;*/
 	top: 0;
 	width: 50%;
-	/*z-index: 2;	*/
 }
 header h1 {
 	border-bottom: 5px solid;
@@ -104,16 +102,12 @@ header a {
 
 section{
 	display: block;
-	height: 75%;
-	/*margin-top: 10%;*/
+	max-height: 65%;
 	margin-left: 25%;
-	margin-bottom: 5%;
 	overflow: scroll;
-	padding-bottom: 1%;
-	position: fixed;
+	padding-bottom: 3%;
 	text-align: center;
 	width: 50%;
-	/*z-index: 1;*/
 }
 section img {
 	max-width: 70%;
@@ -137,12 +131,9 @@ section a {
 footer{
 	background-color: f8f1e0;
 	border-top: 5px solid;
-	bottom: 0;
 	display: block;
 	height: 5%;
 	margin-left: 25%;
 	padding-top: 1%;
-	position: fixed;
 	width: 50%;
-	/*z-index: 1;*/
 }
