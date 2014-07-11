@@ -106,7 +106,7 @@ section{
 	display: block;
 	max-height: 65%;
 	margin-left: 25%;
-	overflow: scroll;
+	overflow-y: scroll;
 	padding-bottom: 3%;
 	text-align: center;
 	width: 50%;
@@ -119,7 +119,7 @@ section h3 {
 	margin-top: 5%;
 	padding: 1%;
 }
-section h2 {
+section h4 {
 	padding: 1%;
 }
 section p {
