@@ -19,7 +19,8 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	border: 0;
-	font-family: "Lucida Grande", sans-serif;
+	/*font-family: "Lucida Grande", sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
