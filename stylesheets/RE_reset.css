@@ -66,7 +66,7 @@ html{
 	background-attachment: fixed;
 	background-color: f8f1e0;
 	background-image: url(../images/background.jpg);
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: 100%;
 	color: 57340e;
 	text-align: center;
