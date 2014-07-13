@@ -1,0 +1,67 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>W6:Technical</title>
+	<link rel="shortcut icon" href="../images/re-mark.png">
+	<link href="../stylesheets/RE_reset.css" rel="stylesheet" type="text/css" >
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Centered header -->
+	<header>
+		<h1>Blocks and Procs and Lambdas, Oh My!</h1>
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="../about.html">About</a>
+			<a href="../optional/optional_posts.html">Random Posts</a>
+		</nav>	
+	</header>
+
+	<!-- content section, links to pages -->
+	<section>
+		<!-- What are these? How do they work? -->
+		<h3>"Closures"</h3>
+		<p>Blocks, Procs, and Lambdas are all types of "closures" Ruby provides to allow you to use and pass tiny bits of code around your file. A closure is essentially a function that can be passed like an object and knows of any variables that were in the scope it was originally created in. Because we can use these closures multiple times throughout our document without rewriting lines of code, we can do more with less.</p>
+		<h3>Blocks</h3>
+		<p>Blocks are simply sections of code we can pass to a method to perform, like so:</p>
+		<code>Array each do |x| <br>
+			puts x+2 <br>
+			end</code>
+		<p>The block of code in this case adds two to each element of the array. The block of code specifies one argument ( |n| ) and is passed to the #each method to be performed on the array. Another way to refer to a block is one we've recently been using a lot at DBC, the yield keyword.</p>
+		<code>def assert <br>
+			unless yield raise "Assertion failed!" <br>
+			end <br><br>
+			assert { condition == true }</code>
+		<p>In this case we've passed a block in between curly brackets to the assert function. Calling yield performs the code in the block supplied to the function.</p>
+		<h3>Proc(edure)s</h3>
+		<p>Blocks are great, but if we needed to do the same function to multiple methods it would get annoying having to copy and paste the same code so often. To solve this, we can use "Procs," or procedures, which are essentially just reusable blocks.</p>
+		<code>add = Proc.new do |x| <br>
+			x+2 <br>
+			end <br><br>
+			Array.do_to_each(add)</code>
+		<h3>Lambdas</h3>
+		<p>While blocks and procs both act like small bits of code to drop in places, lambdas act like methods. The first major difference is that unlike procs, lambdas check the amount of arguments passed. If a proc passes 3 arguments to a method that requires 2, the extra argument will be interpreted as 'nil.' If a lambda does the same, an argument error will be raised.</p>
+		<code>def arguments(code)<br>
+			one, two = 1, 2 <br>
+			code.call(one, two)<br>
+			end<br><br>
+			arguments(Proc.new { |a,b,c| puts "#{a}, #{b}, #{c.class} })<br>
+			# => 1, 2, NilClass<br>
+			arguments(lambda { |a,b,c| puts "#{a}, #{b}, #{c.class} })<br>
+			# => ArgumentError</code>
+		<p>The second difference has to do with its returns. Most importantly, a lamba acts like a method in that it can have a literal return, allowing you to pass the return value with it as an argument, which a proc could not handle.</p>
+		<code>
+		puts print(Proc.new { return "Proc.new" }) <br>
+		# => Unexpected Error <br>
+		puts print(lambda { return "lambda" }) <br>
+		# => lambda</code>
+	</section>
+	
+	<!-- Footer -->
+	<footer>
+		<h3>
+			<a href="http://devbootcamp.com/">Dev Bootcamp 2014</a>
+		</h3>
+	</footer>
+</body>
+</html>
