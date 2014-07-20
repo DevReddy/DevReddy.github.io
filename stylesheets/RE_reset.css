@@ -72,9 +72,11 @@ a {
 	font-weight: bold;
 	text-align: center;
 }
+.egg{text-decoration:none;} 
 a:link{color:#57340e;}
 a:visited{color:#57340e;}
 a:hover{color:#744a1d;}
+a.egg:hover{color:#57340e;}
 a:active{color:#57340e;}
 
 header{

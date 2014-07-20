@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>W7:Technical</title>
+	<link rel="shortcut icon" href="../images/re-mark.png">
+	<link href="../stylesheets/RE_reset.css" rel="stylesheet" type="text/css" >
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Centered header -->
+	<header>
+		<h1>SQL Injection</h1>
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="../about.html">About</a>
+			<a href="../optional/optional_posts.html">Random Posts</a>
+		</nav>	
+	</header>
+
+	<!-- content section, links to pages -->
+	<section>
+		<h3>What is this?</h3>
+		<p>SQL Injection is a way for people to input specific SQL statements to a database, bypassing very basic security checks and possibly revealing sensitive information. Features on sites such as login pages, feedback and support forms, and shopping carts can all be pages targeted by someone. <a href="http://xkcd.com/327/">This comic</a> on xkcd gives a basic example of this idea.</p>
+		<p>One simple way to prevent this is by using an input validation technique called prepared statements, or parameterized queries. This method allows the database to distinguish between code and data, and can prevent a user adding an extra condition to a SELECT statement to grab more records than allowed. There are a few other options, but the concensus seems to be that this is the first method one should be taught, and advanced techniques combine it and others.</p>
+	</section>
+	
+	<!-- Footer -->
+	<footer>
+		<h3>
+			<a href="http://devbootcamp.com/">Dev Bootcamp 2014</a>
+		</h3>
+	</footer>
+</body>
+</html>
