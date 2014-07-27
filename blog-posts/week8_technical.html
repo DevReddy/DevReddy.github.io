@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>W8:Technical</title>
+	<link rel="shortcut icon" href="../images/re-mark.png">
+	<link href="../stylesheets/RE_reset.css" rel="stylesheet" type="text/css" >
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Centered header -->
+	<header>
+		<h1>Big O Complexity</h1>
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="../about.html">About</a>
+			<a href="../optional/optional_posts.html">Random Posts</a>
+		</nav>	
+	</header>
+
+	<!-- content section, links to pages -->
+	<section>
+		<h3>What's the Big Deal?</h3>
+		<p>Have you ever wondered how long a piece of code might take to run? If you're like me, the answer is "nope!" I haven't programmed anything large enough to have to worry much about runtime, but that doesn't mean nobody else does! </p>
+		<p>There will be many times in the future where I'll need to know if one method runs faster than another method, like if I were trying to find a faster sorting algorithm. How can we look at different methods and determine how fast each is? The answer is something called "Algorithm Complexity." Big O is just one way of describing complexities, but it is the most commonly used because it describes the time taken by an algorithm in its Worst Case Scenario. It's useful to know the longest a given algorithm could take.</p>
+		<h3>Notation</h3>
+		<p>When written, you will see complexities written as O(n), O(n^2), etc. One would read this out loud as "O of N." But what do they mean? In these next examples, lets pretend we are talking about an algorithm that sorts a dataset of n elements.</p>
+		<h4>O(n)</h4>
+		<p>In the worst case, this algorithm would execute once for every single item in the dataset. This means the larger the dataset, the longer it will take to complete. With our sorting algorithm, this would mean the data is completely unsorted and it performed a switch on every item in the set.</p>
+		<h4>O(n^2)</h4>
+		<p>A complexity like this would arise when an algorithm involves nested loops. If for instance our algorithm looked at the first piece of data, then went through the rest of the array comparing each piece to the first, THEN did the same operation for each other piece of data, it would take much longer than once per item (like O(n)).</p>
+		<h4>Other complexities</h4>
+		<p>Obviously these were very basic examples, while many real worl algorithms have longer complexities like O(n log^2n). With a basic understanding of worst case complexities one should hopefully gain a bit of insight into how one can tell how long an algorithm might take to run, and how one can communicate this to others.</p>
+	</section>
+	
+	<!-- Footer -->
+	<footer>
+		<h3>
+			<a href="http://devbootcamp.com/">Dev Bootcamp 2014</a>
+		</h3>
+	</footer>
+</body>
+</html>
