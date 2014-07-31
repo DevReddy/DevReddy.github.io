@@ -84,18 +84,28 @@ header{
 	top: 0;
 	width: 50%;
 }
+header a {
+	margin: 0% 5% 0% 5%;
+}
 header h1 {
-	border-bottom: 3px solid;
 	font-size: 200%;
-	padding: 3%;
+	margin-top: 3%;
+}
+header #icons {
+	border-bottom: 3px solid;
+	text-align: right;
+}
+#icons a{
+	margin: 0;
+}
+#icons img{
+	height: 25px;
 }
 header nav {
 	font-size: 125%;
 	padding: 1%;
 }
-header a {
-	margin: 0% 5% 0% 5%;
-}
+
 
 section{
 	display: block;
@@ -117,12 +127,19 @@ section h3 {
 section h4 {
 	padding: 1%;
 }
+section h6{
+	font-size: 125%;
+	margin-top: 2%;
+}
 section p {
 	padding: 1%;
 	text-align: center;
 }
 section a {
 	text-align: center;
+}
+.hider {
+	display: none;
 }
 
 footer{
