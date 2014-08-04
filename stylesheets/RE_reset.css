@@ -150,3 +150,9 @@ footer{
 	padding-top: 1%;
 	width: 50%;
 }
+
+.cheatsheet {
+	max-height: 25%;
+	overflow-y: auto; 
+	width: 45%;
+}
