@@ -24,8 +24,8 @@ gulp.task('addAll', ['prompt'], function(){
 });
 
 gulp.task('commit', ['addAll'], function(){
-	return gulp.src('./*', {buffer: false})
-	.pipe(git.commit(commitMessage, {emitData: true, maxBuffer: 'Infinity'}));
+	return gulp.src('./*')
+	.pipe(git.commit(commitMessage, {maxBuffer: 'Infinity'}));
 });
 
 gulp.task('pushMaster', ['commit'], function(){
