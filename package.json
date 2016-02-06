@@ -1,0 +1,14 @@
+{
+  "name": "DevReddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-git": "^1.7.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-prompt": "^0.1.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7"
+  }
+}
