@@ -56,8 +56,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #f0f0f0;
+}
+
+/* ------------------
+   Header
+   ------------------*/
 header {
-    background-color: #26A65B;
+    background: #26A65B;
     color: white;
     height: 70vh;
     font-family: 'Montserrat', sans-serif;
@@ -66,7 +73,7 @@ header {
     text-align: center;
 }
 
-header a {
+header a, footer a {
     color: white;
     text-decoration: none;
 }
@@ -78,15 +85,15 @@ header h1 {
 
 header h2 {
     font-size: 2rem;
-    margin: 0;
+    margin: 10px auto;
 }
 
-header .fa {
+header .fa, footer .fa {
     font-size: 3rem;
     margin: 0 1vw;
 }
 
-header .fa:hover {
+header .fa:hover, footer .fa:hover {
     color: #E9D460;
 }
 
@@ -102,7 +109,23 @@ header section {
     cursor: pointer;
 }
 
+/* ------------------
+   Content
+   ------------------*/
+#content {
+    height: 1000px;
+}
 
+
+
+/* ------------------
+   Footer
+   ------------------*/
+footer {
+    background: #26A65B;
+    padding: 20px;
+    text-align: center;
+}
 
 
 

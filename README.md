@@ -6,6 +6,8 @@ TO DO:
     -Email  
     -LinkedIn  
 
+[ ] Customize 404 page  
+
 [ ] SASS-ify CSS files  
 [ ] Angular integration  
 
