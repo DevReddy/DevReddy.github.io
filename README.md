@@ -15,7 +15,7 @@ TO DO:
 [ ] Skeleton CSS?  
 [ ] Google Analytics  
 
-
+[ ] Add color theme picker buttons in top corner of screen?  
 
 useful links:  
 http://www.flatuicolorpicker.com/  
