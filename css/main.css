@@ -65,6 +65,7 @@ body {
    ------------------*/
 header {
     background: #26A65B;
+    /*background: #E74C3C;*/
     color: white;
     height: 70vh;
     font-family: 'Montserrat', sans-serif;
