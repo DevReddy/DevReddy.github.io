@@ -23,9 +23,9 @@ https://www.google.com/fonts
 
 
 ####Must Have:####
-[ ] Lightbox on click for screenshots
-[ ] Responsive style for display of projects
-[ ] srcset for project image view
+[ ] Lightbox on click for screenshots  
+[ ] Responsive style for display of projects  
+[ ] srcset for project image view  
 
 
 ####Want to Have:####  
@@ -40,13 +40,13 @@ https://www.google.com/fonts
 
 ####Considerations:####
 
-[ ] "Skills" section on page?
-[ ] Icons in footer for technologies used on my site?
-[ ] Add color theme picker buttons in top corner of screen?  
-[ ] Skeleton CSS?  
+[ ] "Skills" section on page?  
+[ ] Icons in footer for technologies used on my site?  
+[ ] Add color theme picker buttons in top corner of screen?    
+[ ] Skeleton CSS?   
 
 --------------------------------------------------
 
 ####Completed####
-[X] Link GitHub, Bitbucket, LinkedIn, Email  (Header, Footer)
+[X] Link GitHub, Bitbucket, LinkedIn, Email  (Header, Footer)  
 [X] SASS-ify CSS files
