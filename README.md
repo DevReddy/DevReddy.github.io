@@ -1,7 +1,6 @@
 DevReddy.github.io
 ==================
 
-
 ###Useful Links:###
 http://www.flatuicolorpicker.com/  
 https://www.google.com/fonts  
