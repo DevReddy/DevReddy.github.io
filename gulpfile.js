@@ -1,10 +1,17 @@
-var gulp = require('gulp');
-var $ = require('gulp-load-plugins')();
+var gulp = require('gulp'),
+    $    = require('gulp-load-plugins')();
 
+gulp.task('sass', function() {
+	gulp.src(['./css/custom.scss'])
+	.pipe($.sass({outputStyle: 'compact'}))
+	.on('error', $.util.log)
+	.pipe(gulp.dest('./css/'));
+});
+
+// BEGIN: Git prompt, add, commit, push
 var commitMessage = '';
 
 gulp.task('prompt', function(){
-
 	return gulp.src('./*')
 	.pipe($.prompt.prompt({
 		type: 'input',
@@ -32,5 +39,10 @@ gulp.task('pushMaster', ['commit'], function(){
 		if (err) throw err;
 	});
 });
+// END: Git prompt, add, commit, push
 
-gulp.task('default', ['pushMaster']);
+gulp.task('watch', function() {
+	gulp.watch(['./css/custom.scss'], ['sass']);
+});
+
+gulp.task('default', ['sass', 'watch']);
