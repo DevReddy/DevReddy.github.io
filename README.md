@@ -9,6 +9,10 @@ https://www.google.com/fonts
 
 ##TO DO:##
 
+###Minor###
+[ ] more space between "Projects" and first Project
+[ ] no padding-top when super tiny screen width AND height, currently width is ignoring the rule on tiny height when too small
+
 ####IMPORTANT####
 
 [ ] CHECK: all font-size in rem, then simple media queries to change top-level font-size?  
