@@ -28,7 +28,7 @@ https://www.google.com/fonts
 [ ] srcset for project image view  
 
 
-####Want to Have:####  
+####Want to Have:####
 [ ] Angular integration  
 [ ] Customize 404 page  
 
