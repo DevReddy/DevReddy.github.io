@@ -11,8 +11,7 @@ https://www.google.com/fonts
 
 ####IMPORTANT####
 
-[ ] Text overflows header on iPhone 5 screen, make font-size responsive or adjust top vh padding
-   CHECK: all font-size in rem, then simple media queries to change top-level font-size?  
+[ ] CHECK: all font-size in rem, then simple media queries to change top-level font-size?  
 
 [ ] mobile media query for padding-top of main logo  
 
@@ -23,14 +22,14 @@ https://www.google.com/fonts
 
 
 ####Must Have:####
-[ ] Lightbox on click for screenshots  
-[ ] Responsive style for display of projects  
+[ ] Lightbox on click for screenshots   
 [ ] srcset for project image view  
 
 
 ####Want to Have:####
 [ ] Angular integration  
 [ ] Customize 404 page  
+[ ] Clean up SASS media queries  
 
 
 ####Nice to Have:####
@@ -50,3 +49,5 @@ https://www.google.com/fonts
 ####Completed####
 [X] Link GitHub, Bitbucket, LinkedIn, Email  (Header, Footer)  
 [X] SASS-ify CSS files
+[X] Text overflows header on iPhone 5 screen, make font-size responsive or adjust top vh padding
+[X] Responsive style for display of projects 
