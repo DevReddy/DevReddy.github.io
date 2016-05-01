@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <!--link rel="stylesheet" href="css/skeleton.css"-->
+        <link rel="stylesheet" href="css/custom.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -23,24 +23,51 @@
         <header>
             <h1>Ryan M. Eddy</h1>
             <h2>Full Stack Web Developer</h2>
-            <section>
-                <a href="https://github.com/DevReddy"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="https://bitbucket.org/REddyDev/"><i class="fa fa-bitbucket" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/ryaneddydev"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <section class="social-links">
+                <a href="https://github.com/DevReddy" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://bitbucket.org/REddyDev/" target="_blank"><i class="fa fa-bitbucket" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/ryaneddydev" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a href="mailto:RyanEddyDev@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             </section>
             <i id="scrollArrow" class="fa fa-arrow-circle-down" aria-hidden="true"></i>
         </header>
 
-        <div id="content">
-            <h1>DON'T LOOK, I'M HIDEOUS</h1>
-        </div>
+        <main>
+            <h3>Projects</h3>
+
+            <article class="project">
+                <section class="project-text">
+                    <header>
+                        <h4>ReddyReader</h4>
+                        <h5>Web App</h5>
+                        <h5>Ruby on Rails, Google Books API, Bootstrap, OAuth</h5>
+                    </header>
+                    <p>ReddyReader uses Ruby on Rails and the Google Books API to allow a user to search for a book and receive a personalized estimation of how long it might take them to read it. Users can also log in through <a href="https://www.goodreads.com/">Goodreads</a> and receive estimations for all books on their "shelf."</p>
+                    <p>The app also delivers data such as comparative worldwide reading speed statistics and suggested future reading based on other popular user searches.</p>
+                </section>
+                <section class="project-external">   
+                    <div class="project-images">
+                        <img src="./images/reddyreader1.png" alt="ReddyReader Home Page" title="ReddyReader Home Page">
+                    </div> 
+                    <div class="project-buttons">
+                        <div class="image-select">
+                            <button value="reddyreader1" class="selected">1</button>
+                            <button value="reddyreader2">2</button>
+                        </div>
+                        <div class="external-links">
+                            <button><a href="http://reddyreader.herokuapp.com/" target="_blank">Visit</a></button>
+                            <button><a href="https://github.com/DevReddy/ReddyReader" target="_blank">GitHub</a></button>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
 
         <footer>
-            <section>
-                <a href="https://github.com/DevReddy"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="https://bitbucket.org/REddyDev/"><i class="fa fa-bitbucket" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/ryaneddydev"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <section class="social-links">
+                <a href="https://github.com/DevReddy" target="_blank"><i class="fa fa-github" aria-hidden="true" target=""></i></a>
+                <a href="https://bitbucket.org/REddyDev/" target="_blank"><i class="fa fa-bitbucket" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/ryaneddydev" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a href="mailto:RyanEddyDev@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             </section>
         </footer>
@@ -61,5 +88,15 @@
           ga('send', 'pageview');
 
         </script>
+
+        <!--
+          ____________
+         /  __    ____|    
+        |  |__|  |___
+         \   _    ___|
+         /  / |  |____
+        /__/  |_______| 
+
+        -->
     </body>
 </html>

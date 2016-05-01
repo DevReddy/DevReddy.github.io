@@ -1,7 +1,7 @@
 {
-  "name": "DevReddy",
+  "name": "DevReddy.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ryan Eddy portfolio site",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
