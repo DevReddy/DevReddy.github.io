@@ -1,9 +1,9 @@
 /* ------------------ Global ------------------*/
 body { background: #F0F0F0; font-family: 'Montserrat', sans-serif; }
 
-.social-links .fa { color: #FFFFFF; text-decoration: none; font-size: 3rem; margin: 0 1vw; }
+.social-links .fab, .fal { color: #FFFFFF; text-decoration: none; font-size: 3rem; margin: 0 1vw; }
 
-.social-links .fa:hover { color: #E9D460; }
+.social-links .fab:hover, .fal:hover, .fas:hover { color: #E9D460; }
 
 /* ------------------ Header ------------------*/
 body > header { background: #26A65B; /*background: $red;*/ color: #FFFFFF; height: 70vh; min-height: 550px; padding: 0 2%; padding-top: 30vh; text-align: center; }
