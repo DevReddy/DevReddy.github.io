@@ -1,6 +1,6 @@
 $(function(){
     $('#scrollArrow').click(function(){
-        $('body').animate({
+        $('html,body').animate({
             scrollTop: $('main').offset().top
         }, 500)
     });
